@@ -23,3 +23,7 @@ app.get('/api/scrape', async (request, response) => {
         response.status(500).json({ error: error.message });
     }
 });
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
