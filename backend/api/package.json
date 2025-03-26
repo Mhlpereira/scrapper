@@ -1,0 +1,23 @@
+{
+  "name": "tech-test",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "index.ts"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/bun": "^1.2.6",
+    "@types/express": "^5.0.1",
+    "@types/jsdom": "^21.1.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "express": "^4.21.2",
+    "jsdom": "^26.0.0"
+  }
+}
