@@ -1,6 +1,6 @@
-import express, { Request, Response, NextFunction } from "express";
+import express from "express";
 import cors from "cors";
-import { scrapeAmazonProducts } from "./scraper";
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
