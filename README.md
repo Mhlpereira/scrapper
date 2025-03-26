@@ -1,4 +1,23 @@
+# backend
+
+cd backend/api
+
+To install
+
+```bash
+bun install
+```
+
+To run:
+
+```bash
+bun run index.ts
+```
+
+
 # frontend
+
+cd frontend
 
 To install dependencies:
 
